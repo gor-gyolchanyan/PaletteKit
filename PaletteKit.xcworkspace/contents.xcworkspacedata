@@ -1,27 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
-   <Group
-      location = "group:Settings"
-      name = "Settings">
-      <FileRef
-         location = "group:standard_gitignore_keywords.txt">
-      </FileRef>
-      <FileRef
-         location = "group:custom_gitignore.txt">
-      </FileRef>
-      <FileRef
-         location = "container:PaletteKit.xcworkspace/xcshareddata/IDETemplateMacros.plist">
-      </FileRef>
-      <FileRef
-         location = "container:LICENSE.txt">
-      </FileRef>
-   </Group>
-   <Group
-      location = "group:Scripts"
-      name = "Scripts">
-      <FileRef
-         location = "group:configure.sh">
-      </FileRef>
-   </Group>
+   <FileRef
+      location = "container:">
+   </FileRef>
+   <FileRef
+      location = "container:PaletteKit.xcworkspace/xcshareddata/IDETemplateMacros.plist">
+   </FileRef>
 </Workspace>
