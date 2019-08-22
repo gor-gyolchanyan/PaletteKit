@@ -25,3 +25,19 @@
 // For more information, please refer to <http://unlicense.org/>
 //
 
+// MARK: - Palette
+
+/// A type that, given a preset, tries to produce a corresponding sample.
+public protocol Palette {
+
+	/// The type that has a corresponding `Sample`.
+	associatedtype Preset
+
+	/// The type that corresponds to a `Preset`.
+	associatedtype Sample
+
+	/// Given `preset`, accesses the corresponding sample.
+	/// - parameter preset: The `Preset` that has a corresponding sample.
+	/// - returns: The `Sample` corresponding to `preset`.
+	subscript(preset preset: Preset) -> Sample { get set }
+}
